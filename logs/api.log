@@ -1,0 +1,51 @@
+05-09-2022 11:31:50.475 [Gauge] [INFO] Watching directory: C:\Users\testinium\IdeaProjects\Automation.QatarAirWays\specs
+05-09-2022 11:31:50.476 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+05-09-2022 11:31:50.479 [Gauge] [DEBUG] Found 1 files
+05-09-2022 11:31:50.483 [Gauge] [INFO] Initializing specs cache with 1 specs
+05-09-2022 11:31:50.483 [Gauge] [DEBUG] Adding specs from C:\Users\testinium\IdeaProjects\Automation.QatarAirWays\specs\example.spec
+05-09-2022 11:31:50.483 [Gauge] [INFO] Initializing steps cache with 1 steps
+05-09-2022 11:31:50.483 [Gauge] [INFO] Gauge daemon initialized and listening on port: 51005
+05-09-2022 11:31:50.903 [Gauge] [DEBUG] Api Request Received: messageType:GetLanguagePluginLibPathRequest messageId:5 libPathRequest:<language:"java" > 
+05-09-2022 11:31:50.913 [Gauge] [DEBUG] Sending API response: messageType:GetLanguagePluginLibPathResponse messageId:5 libPathResponse:<path:"C:\\Users\\testinium\\AppData\\Roaming\\gauge\\plugins\\java\\0.7.3\\libs" > 
+05-09-2022 11:32:03.646 [Gauge] [INFO] Watching directory: C:\Users\testinium\IdeaProjects\Automation.QatarAirWays\specs
+05-09-2022 11:32:03.646 [Gauge] [DEBUG] Found 1 files
+05-09-2022 11:32:03.647 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+05-09-2022 11:32:03.648 [Gauge] [INFO] Initializing specs cache with 1 specs
+05-09-2022 11:32:03.648 [Gauge] [DEBUG] Adding specs from C:\Users\testinium\IdeaProjects\Automation.QatarAirWays\specs\example.spec
+05-09-2022 11:32:03.648 [Gauge] [INFO] Initializing steps cache with 1 steps
+05-09-2022 11:32:03.648 [Gauge] [INFO] Gauge daemon initialized and listening on port: 51007
+05-09-2022 11:32:18.927 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+05-09-2022 11:32:18.927 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+05-09-2022 11:32:19.062 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+05-09-2022 11:32:19.063 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+05-09-2022 11:32:19.063 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+05-09-2022 11:32:19.063 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+05-09-2022 15:34:01.862 [Gauge] [INFO] Watching directory: C:\Users\testinium\IdeaProjects\Automation.QatarAirWays\specs
+05-09-2022 15:34:01.864 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+05-09-2022 15:34:01.864 [Gauge] [DEBUG] Found 1 files
+05-09-2022 15:34:01.881 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\IdeaProjects\Automation.QatarAirWays\specs\example.spec
+05-09-2022 19:38:41.989 [Gauge] [INFO] Watching directory: C:\Users\testinium\IdeaProjects\Automation.QatarAirWays\specs
+05-09-2022 19:38:42.005 [Gauge] [DEBUG] Found 1 files
+05-09-2022 19:38:42.083 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+05-09-2022 19:38:42.108 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\IdeaProjects\Automation.QatarAirWays\specs\example.spec
+05-09-2022 22:03:11.064 [Gauge] [INFO] Watching directory: C:\Users\testinium\IdeaProjects\Automation.QatarAirWays\specs
+05-09-2022 22:03:11.076 [Gauge] [DEBUG] Found 1 files
+05-09-2022 22:03:11.079 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+05-09-2022 22:03:11.188 [Gauge] [INFO] Initializing specs cache with 1 specs
+05-09-2022 22:03:11.188 [Gauge] [DEBUG] Adding specs from C:\Users\testinium\IdeaProjects\Automation.QatarAirWays\specs\example.spec
+05-09-2022 22:03:11.188 [Gauge] [INFO] Initializing steps cache with 1 steps
+05-09-2022 22:03:11.189 [Gauge] [INFO] Gauge daemon initialized and listening on port: 53746
+05-09-2022 22:03:16.527 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Qatar Airways uygulamas\304\261 a\303\247\304\261l\304\261r ve a\303\247\304\261ld\304\261\304\237\304\261 kontrol edilir" > 
+05-09-2022 22:03:16.528 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Qatar Airways uygulamas\304\261 a\303\247\304\261l\304\261r ve a\303\247\304\261ld\304\261\304\237\304\261 kontrol edilir" parameterizedStepValue:"Qatar Airways uygulamas\304\261 a\303\247\304\261l\304\261r ve a\303\247\304\261ld\304\261\304\237\304\261 kontrol edilir" > > 
+05-09-2022 22:03:16.551 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"10\" saniye bekle" > 
+05-09-2022 22:03:16.551 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} saniye bekle" parameterizedStepValue:"<10> saniye bekle" parameters:"10" > > 
+05-09-2022 22:03:16.590 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<duration> saniye bekle" > 
+05-09-2022 22:03:16.590 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} saniye bekle" parameterizedStepValue:"<duration> saniye bekle" parameters:"duration" > > 
+05-09-2022 22:03:16.592 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"1. skip butonunu bul ve t\304\261kla" > 
+05-09-2022 22:03:16.592 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"1. skip butonunu bul ve t\304\261kla" parameterizedStepValue:"1. skip butonunu bul ve t\304\261kla" > > 
+05-09-2022 22:03:16.598 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"4\" saniye bekle" > 
+05-09-2022 22:03:16.599 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} saniye bekle" parameterizedStepValue:"<4> saniye bekle" parameters:"4" > > 
+05-09-2022 22:03:16.622 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"2. skip butonunu bul ve t\304\261kla" > 
+05-09-2022 22:03:16.622 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"2. skip butonunu bul ve t\304\261kla" parameterizedStepValue:"2. skip butonunu bul ve t\304\261kla" > > 
+05-09-2022 22:03:16.625 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Decline butonunu bul ve t\304\261kla" > 
+05-09-2022 22:03:16.627 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Decline butonunu bul ve t\304\261kla" parameterizedStepValue:"Decline butonunu bul ve t\304\261kla" > > 
