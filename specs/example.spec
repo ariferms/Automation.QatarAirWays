@@ -17,3 +17,20 @@ Qatar anasayfa
 * "4" saniye bekle
 * Decline butonunu bul ve tıkla
 * "10" saniye bekle
+
+Alt menüden “Book” tabına geçiş yapılır.
+-------------
+* Book menüsünü bul ve tıkla
+
+Bilet al
+------------
+* Seyehat tipi olarak “One Way” seçilir
+* Kalkış havaalanı selectboxına tıklanır
+* Kalkış havaalanı olarak "Berlin" seçilir
+* Varış havaalanı selectboxına tıklanır
+* Varış havaalanı olarak "Istanbul" seçilir
+* Bugünden 7 gün sonrası için bir gidiş tarihi seçilir
+* Arama butonuna tıklanır
+* Uçuş seçim ekranının geldiği kontrol edilir ve rastgele bir uçuş seçilir
+* Economy class seçeneğine tıklanır
+

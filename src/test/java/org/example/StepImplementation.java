@@ -7,6 +7,7 @@ import driver.Driver;
 import org.junit.jupiter.api.Assertions;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import pages.BookPage;
 import pages.HomePage;
 import pages.StartApp;
 
@@ -20,8 +21,9 @@ public class StepImplementation extends Methods {
         methods = new Methods();
     }
 
-    HomePage homePage = new HomePage();
-    StartApp startApp = new StartApp();
+    private static HomePage homePage = new HomePage();
+    private static StartApp startApp = new StartApp();
+    private static BookPage bookPage = new BookPage();
 
 
 
@@ -49,5 +51,41 @@ public class StepImplementation extends Methods {
     public void skipDecline() {
         homePage.clikToDecline();
     }
+
+    @Step("Book menüsünü bul ve tıkla")
+    public void foundAndClick(){bookPage.clickBookMenu();}
+
+    @Step("Seyehat tipi olarak “One Way” seçilir")
+    public void selectedOneWay(){bookPage.selectOneWay();}
+
+    @Step("Kalkış havaalanı selectboxına tıklanır")
+    public void clickedOutBoundFlight(){bookPage.clickOutBoundFlight();}
+
+    @Step("Kalkış havaalanı olarak <OutBound> seçilir")
+    public void selectedOutBound(String OutBound){
+        bookPage.selectOutAndInBoundFlight(OutBound);
+        bookPage.selectAirPort();
+    }
+
+    @Step("Varış havaalanı selectboxına tıklanır")
+    public void clickedInBoundFlight(){bookPage.clickInBoundFlight();}
+
+    @Step("Varış havaalanı olarak <InBound> seçilir")
+    public void selectedInBound(String InBound){
+        bookPage.selectOutAndInBoundFlight(InBound);
+        bookPage.selectAirPort();
+    }
+
+    @Step("Bugünden 7 gün sonrası için bir gidiş tarihi seçilir")
+    public void selectDate(){bookPage.dateCreated();}
+
+    @Step("Arama butonuna tıklanır")
+    public void clickSearch(){bookPage.clickSearchButton();}
+
+    @Step("Uçuş seçim ekranının geldiği kontrol edilir ve rastgele bir uçuş seçilir")
+    public void randomFlight(){bookPage.randomSelectFlight();}
+
+    @Step("Economy class seçeneğine tıklanır")
+    public void clickEconomy(){bookPage.clickEconomy();}
 
 }
